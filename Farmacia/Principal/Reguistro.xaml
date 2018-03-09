@@ -1,0 +1,29 @@
+﻿<Window x:Class="Principal.Reguistro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Principal"
+        mc:Ignorable="d"
+        Title="Reguistro" Height="350" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="1" FontWeight="Heavy" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center">Mi Querido Enfermito</Label>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Grid.Row="2">
+            <Image Source="enfermito.jpg" Height="200" Width="400" Margin="20,10" ></Image>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Center">
+            <Button x:Name="btnEmpleados" Click="btnEmpleados_Click" Width="80" Margin="10,5" Height="30">Empleados</Button>
+            <Button x:Name="btnClientes" Width="80" Margin="10,5" Height="30" Click="btnClientes_Click">Clientes</Button>
+            <Button x:Name="btnProductos" Width="80" Margin="10,5" Height="30" Click="btnProductos_Click">Productos</Button>
+            <Button x:Name="btnRegresar" Click="btnRegresar_Click" Width="80" Margin="10,5" Height="30">Regresar</Button>
+        </StackPanel>
+    </Grid>
+</Window>

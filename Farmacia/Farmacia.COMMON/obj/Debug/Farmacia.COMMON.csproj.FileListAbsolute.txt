@@ -1,0 +1,5 @@
+C:\Programacion\Segundo Semestre\Tercera Unidad\Farmacia\Farmacia.COMMON\bin\Debug\Farmacia.COMMON.dll
+C:\Programacion\Segundo Semestre\Tercera Unidad\Farmacia\Farmacia.COMMON\bin\Debug\Farmacia.COMMON.pdb
+C:\Programacion\Segundo Semestre\Tercera Unidad\Farmacia\Farmacia.COMMON\obj\Debug\Farmacia.COMMON.csprojResolveAssemblyReference.cache
+C:\Programacion\Segundo Semestre\Tercera Unidad\Farmacia\Farmacia.COMMON\obj\Debug\Farmacia.COMMON.dll
+C:\Programacion\Segundo Semestre\Tercera Unidad\Farmacia\Farmacia.COMMON\obj\Debug\Farmacia.COMMON.pdb
